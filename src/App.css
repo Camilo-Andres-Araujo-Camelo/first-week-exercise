@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  min-width: 300px;
+  max-width: 550px;
+  text-align: center;
+  box-shadow: 0 0 10px black;
+  background: white;
+}
+
+.btn-arrow {
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-right: 1.25rem;
+  box-shadow: 0 0 5px black;
+  padding: 0;
+  color: white
+}
+
+.btn-arrow:focus {
+  outline: none;
+}
+
+.quoteBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  width: fit-content;
+}
+
+.quoteBox > p {
+  align-self: flex-end;
+  margin: 0
+}
+
+.quoteText {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1rem;
+}
+
+.quoteText > i {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+}
+
